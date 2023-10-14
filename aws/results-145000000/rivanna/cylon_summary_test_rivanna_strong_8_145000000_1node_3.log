@@ -1,0 +1,172 @@
+...............................................................
+...............................................................
+...............................................................
+...............................................................
+...............................................................
+/scratch/qad5gv/cylon/CYLON-ENV/bin/python
+/apps/software/standard/core/gcc/9.2.0/bin/gcc
+/apps/software/standard/core/gcc/9.2.0/bin/g++
+...............................................................
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                40
+On-line CPU(s) list:   0-39
+Thread(s) per core:    1
+Core(s) per socket:    20
+Socket(s):             2
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Stepping:              7
+CPU MHz:               2500.000
+BogoMIPS:              5000.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              28160K
+NUMA node0 CPU(s):     0,4,8,12,16,20,24,28,32,36
+NUMA node1 CPU(s):     1,5,9,13,17,21,25,29,33,37
+NUMA node2 CPU(s):     2,6,10,14,18,22,26,30,34,38
+NUMA node3 CPU(s):     3,7,11,15,19,23,27,31,35,39
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin intel_pt ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke avx512_vnni md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+...............................................................
+initialized Redis UCC Config context
+initialized Redis UCC Config context
+Task#  0
+###  s 1 145000000 145000000 0 44.3125 161109857
+###  s 1 145000000 145000000 1 45.67824625968933 161109857
+###  s 1 145000000 145000000 2 44.71608376502991 161109857
+###  s 1 145000000 145000000 3 45.02419185638428 161109857
+###  s 1 145000000 145000000 4 44.94773554801941 161109857
+###  s 1 145000000 145000000 5 44.96288776397705 161109857
+###  s 1 145000000 145000000 6 44.8435845375061 161109857
+###  s 1 145000000 145000000 7 45.025710582733154 161109857
+###  s 1 145000000 145000000 8 44.8340163230896 161109857
+###  s 1 145000000 145000000 9 44.97798418998718 161109857
+
++------------------+--------------------------------------------+
+| Attribute        | Value                                      |
+|------------------+--------------------------------------------|
+| cpu              | Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz   |
+| cpu_cores        | 40                                         |
+| cpu_count        | 40                                         |
+| cpu_threads      | 40                                         |
+| date             | 2023-10-14 16:55:42.323735                 |
+| frequency        | scpufreq(current=2500.0, min=0.0, max=0.0) |
+| mem.active       | 61.8 GiB                                   |
+| mem.available    | 298.5 GiB                                  |
+| mem.free         | 79.8 GiB                                   |
+| mem.inactive     | 207.8 GiB                                  |
+| mem.percent      | 20.7 %                                     |
+| mem.total        | 376.4 GiB                                  |
+| mem.used         | 56.8 GiB                                   |
+| platform.version | #1 SMP Wed Feb 23 16:47:03 UTC 2022        |
+| python           | 3.7.7 (default, Apr 14 2020, 15:24:48)     |
+|                  | [GCC 9.2.0]                                |
+| python.pip       | 23.2.1                                     |
+| python.version   | 3.7.7                                      |
+| sys.platform     | linux                                      |
+| uname.machine    | x86_64                                     |
+| uname.node       | udc-aw32-17c0                              |
+| uname.processor  | x86_64                                     |
+| uname.release    | 3.10.0-1160.59.1.el7.x86_64                |
+| uname.system     | Linux                                      |
+| uname.version    | #1 SMP Wed Feb 23 16:47:03 UTC 2022        |
+| user             | qad5gv                                     |
++------------------+--------------------------------------------+
+
++---------------------------------+----------+---------+---------+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+---------------+--------+-------+-------------------------------------+
+| Name                            | Status   |    Time |     Sum | Start               | tag                                                                                                                                                            | msg   | Node          | User   | OS    | Version                             |
+|---------------------------------+----------+---------+---------+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+---------------+--------+-------+-------------------------------------|
+| join_total_rivanna_145000000_10 | ok       | 454.013 | 454.013 | 2023-10-14 16:48:08 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_0_rivanna_145000000_10     | ok       |  44.313 |  44.313 | 2023-10-14 16:48:12 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_1_rivanna_145000000_10     | ok       |  45.679 |  45.679 | 2023-10-14 16:48:57 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_2_rivanna_145000000_10     | ok       |  44.717 |  44.717 | 2023-10-14 16:49:42 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_3_rivanna_145000000_10     | ok       |  45.025 |  45.025 | 2023-10-14 16:50:27 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_4_rivanna_145000000_10     | ok       |  44.948 |  44.948 | 2023-10-14 16:51:12 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_5_rivanna_145000000_10     | ok       |  44.963 |  44.963 | 2023-10-14 16:51:57 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_6_rivanna_145000000_10     | ok       |  44.844 |  44.844 | 2023-10-14 16:52:42 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_7_rivanna_145000000_10     | ok       |  45.026 |  45.026 | 2023-10-14 16:53:27 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_8_rivanna_145000000_10     | ok       |  44.834 |  44.834 | 2023-10-14 16:54:12 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| join_9_rivanna_145000000_10     | ok       |  44.978 |  44.978 | 2023-10-14 16:54:57 | {'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0} |       | udc-aw32-17c0 | qad5gv | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
++---------------------------------+----------+---------+---------+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+---------------+--------+-------+-------------------------------------+
+# csv,timer,status,time,sum,start,tag,msg,uname.node,user,uname.system,platform.version
+# csv,join_total_rivanna_145000000_10,ok,454.013,454.013,2023-10-14 16:48:08,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_0_rivanna_145000000_10,ok,44.313,44.313,2023-10-14 16:48:12,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_1_rivanna_145000000_10,ok,45.679,45.679,2023-10-14 16:48:57,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_2_rivanna_145000000_10,ok,44.717,44.717,2023-10-14 16:49:42,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_3_rivanna_145000000_10,ok,45.025,45.025,2023-10-14 16:50:27,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_4_rivanna_145000000_10,ok,44.948,44.948,2023-10-14 16:51:12,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_5_rivanna_145000000_10,ok,44.963,44.963,2023-10-14 16:51:57,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_6_rivanna_145000000_10,ok,44.844,44.844,2023-10-14 16:52:42,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_7_rivanna_145000000_10,ok,45.026,45.026,2023-10-14 16:53:27,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_8_rivanna_145000000_10,ok,44.834,44.834,2023-10-14 16:54:12,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,join_9_rivanna_145000000_10,ok,44.978,44.978,2023-10-14 16:54:57,{'rows': 145000000, 'it': 10, 'unique': 0.9, 'scaling': 's', 'world_size': 1, 'redis_host': '54.157.181.17', 'redis_port': 6379, 'host': 'rivanna', 'task': 0},None,udc-aw32-17c0,qad5gv,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+
+[1697302542.352647] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68840 was not returned to mpool devx dbrec
+[1697302542.352660] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68880 was not returned to mpool devx dbrec
+[1697302542.352662] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b688c0 was not returned to mpool devx dbrec
+[1697302542.352664] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68900 was not returned to mpool devx dbrec
+[1697302542.352665] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68940 was not returned to mpool devx dbrec
+[1697302542.352666] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68980 was not returned to mpool devx dbrec
+[1697302542.352668] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b689c0 was not returned to mpool devx dbrec
+[1697302542.352669] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68a00 was not returned to mpool devx dbrec
+[1697302542.352670] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68a40 was not returned to mpool devx dbrec
+[1697302542.352672] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68a80 was not returned to mpool devx dbrec
+[1697302542.352673] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68ac0 was not returned to mpool devx dbrec
+[1697302542.352674] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68b00 was not returned to mpool devx dbrec
+[1697302542.352676] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68b40 was not returned to mpool devx dbrec
+[1697302542.352677] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68b80 was not returned to mpool devx dbrec
+[1697302542.352678] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68bc0 was not returned to mpool devx dbrec
+[1697302542.352680] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68c00 was not returned to mpool devx dbrec
+[1697302542.352681] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68c40 was not returned to mpool devx dbrec
+[1697302542.352682] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68c80 was not returned to mpool devx dbrec
+[1697302542.352684] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68cc0 was not returned to mpool devx dbrec
+[1697302542.352685] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68d00 was not returned to mpool devx dbrec
+[1697302542.352686] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68d40 was not returned to mpool devx dbrec
+[1697302542.352688] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68d80 was not returned to mpool devx dbrec
+[1697302542.352689] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68dc0 was not returned to mpool devx dbrec
+[1697302542.352690] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68e00 was not returned to mpool devx dbrec
+[1697302542.352692] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68e40 was not returned to mpool devx dbrec
+[1697302542.352693] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68e80 was not returned to mpool devx dbrec
+[1697302542.352694] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68ec0 was not returned to mpool devx dbrec
+[1697302542.352696] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68f00 was not returned to mpool devx dbrec
+[1697302542.352697] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68f40 was not returned to mpool devx dbrec
+[1697302542.352698] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68f80 was not returned to mpool devx dbrec
+[1697302542.352699] [udc-aw32-17c0:88445:0]           mpool.c:55   UCX  WARN  object 0x3b68fc0 was not returned to mpool devx dbrec
+[1697302542.352779] [udc-aw32-17c0:88445:0]       ib_device.c:608  UCX  WARN  async_events_hash not empty
+[1697302578.113125] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f18c0 was not returned to mpool devx dbrec
+[1697302578.113140] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1900 was not returned to mpool devx dbrec
+[1697302578.113142] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1940 was not returned to mpool devx dbrec
+[1697302578.113144] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1980 was not returned to mpool devx dbrec
+[1697302578.113145] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f19c0 was not returned to mpool devx dbrec
+[1697302578.113147] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1a00 was not returned to mpool devx dbrec
+[1697302578.113148] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1a40 was not returned to mpool devx dbrec
+[1697302578.113149] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1a80 was not returned to mpool devx dbrec
+[1697302578.113150] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1ac0 was not returned to mpool devx dbrec
+[1697302578.113152] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1b00 was not returned to mpool devx dbrec
+[1697302578.113153] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1b40 was not returned to mpool devx dbrec
+[1697302578.113154] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1b80 was not returned to mpool devx dbrec
+[1697302578.113156] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1bc0 was not returned to mpool devx dbrec
+[1697302578.113157] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1c00 was not returned to mpool devx dbrec
+[1697302578.113158] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1c40 was not returned to mpool devx dbrec
+[1697302578.113160] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1c80 was not returned to mpool devx dbrec
+[1697302578.113161] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1cc0 was not returned to mpool devx dbrec
+[1697302578.113163] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1d00 was not returned to mpool devx dbrec
+[1697302578.113164] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1d40 was not returned to mpool devx dbrec
+[1697302578.113165] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1d80 was not returned to mpool devx dbrec
+[1697302578.113167] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1dc0 was not returned to mpool devx dbrec
+[1697302578.113168] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1e00 was not returned to mpool devx dbrec
+[1697302578.113169] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1e40 was not returned to mpool devx dbrec
+[1697302578.113171] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1e80 was not returned to mpool devx dbrec
+[1697302578.113172] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1ec0 was not returned to mpool devx dbrec
+[1697302578.113173] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1f00 was not returned to mpool devx dbrec
+[1697302578.113174] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1f40 was not returned to mpool devx dbrec
+[1697302578.113176] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1f80 was not returned to mpool devx dbrec
+[1697302578.113177] [udc-aw32-17c1:769157:0]           mpool.c:55   UCX  WARN  object 0x37f1fc0 was not returned to mpool devx dbrec
+[1697302578.113262] [udc-aw32-17c1:769157:0]       ib_device.c:608  UCX  WARN  async_events_hash not empty
+...............................................................
